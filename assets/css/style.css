@@ -365,7 +365,7 @@ ul {
     -webkit-background-clip: text;
     position: absolute;
     font-size: 220px;
-    left: 22%;
+    left: calc(100% - 80%);
     opacity: .7;
     z-index: 1;
     padding: 0;
@@ -434,4 +434,68 @@ ul {
 
 .fade-out-text {
     color: white !important;
+}
+
+@media screen and (max-width: 1201px) {
+    .about-section h2 {
+        margin: 171px 80px 46px;
+        font-size: 70px;
+    }
+
+    .rms-media-section .top-middle {
+        margin-left: 20%;
+    }
+
+    .rms-media-section .bottom-right {
+        left: 45%;
+    }
+
+    .our-vision h2 {
+        left: calc(100% - 80%);
+        font-size: 150px;
+    }
+
+    .card {
+        width: 300px;
+    }
+
+    .text-card {
+        width: 300px;
+        padding: 55px 35px;
+        font-size: 24px;
+    }
+
+    .why-rms p {
+        font-size: 50px;
+    }
+
+    .links {
+        margin: 180px 100px 0;
+        font-size: 18px;
+    }
+
+    .our-company h2 {
+        font-size: 150px;
+    }
+
+    .meet-our-team img {
+        width: 303px;
+        height: 404px;
+    }
+
+    .message-section {
+        margin-left: 20%;
+    }
+
+    .footer-top {
+        padding: 0 10%;
+    }
+
+    .subscribe .input-icon {
+        right: 10%;
+    }
+
+    .footer-middle {
+        padding: 0 10%;
+    }
 }
