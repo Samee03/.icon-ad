@@ -1,0 +1,437 @@
+@font-face {
+    font-family: 'Helvetica Neue Regular'; /* Choose a name for your font */
+    src: url('../fonts/Helvetica Neue/Helvetica Neue Regular/Helvetica Neue Regular.woff') format('woff');
+    font-weight: normal; /* Or specify the desired font weight */
+    font-style: normal; /* Or specify the desired font style */
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Medium'; /* Choose a name for your font */
+    src: url('../fonts/Helvetica Neue/Helvetica Neue 67 Medium Condensed/Helvetica Neue 67 Medium Condensed.woff') format('woff');
+    font-weight: normal; /* Or specify the desired font weight */
+    font-style: normal; /* Or specify the desired font style */
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Medium 97'; /* Choose a name for your font */
+    src: url('../fonts/Helvetica Neue/Helvetica Neue 97 Black Condensed/Helvetica Neue 97 Black Condensed.woff') format('woff');
+    font-weight: normal; /* Or specify the desired font weight */
+    font-style: normal; /* Or specify the desired font style */
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Bold'; /* Choose a name for your font */
+    src: url('../fonts/Helvetica Neue/Helvetica Neue Condensed Bold/Helvetica Neue Condensed Bold.woff') format('woff');
+    font-weight: bold; /* Or specify the desired font weight */
+    font-style: normal; /* Or specify the desired font style */
+}
+
+.pl-1 {
+    margin-left: 10px;
+}
+
+.pl-2 {
+    margin-left: 20px;
+}
+
+.gsap-marker-end,
+.gsap-marker-start,
+.gsap-marker-scroller-end,
+.gsap-marker-scroller-start {
+    visibility: hidden !important;
+}
+
+body {
+    background-color: #000 !important;
+    color: #EFEFEF !important;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue Bold", serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-section {
+    padding: 0 50px;
+    font-family: "Helvetica Neue Medium", serif;
+}
+
+.about-section img {
+    width: 100%;
+}
+
+.about-section h2 {
+    font-size: 97px;
+    letter-spacing: 1px;
+    margin: 171px 150px 46px 150px;
+}
+
+.rms-media-section .top-middle {
+    font-family: "Helvetica Neue Bold", serif;
+    color: #EFEFEF;
+    font-size: 54px;
+    margin: 171px 0 0 25%;
+}
+
+.top-middle span {
+    color: #1CB647;
+}
+
+.rms-media-section .bottom-right {
+    width: fit-content;
+    font-size: 15px;
+    font-family: "Helvetica Neue Regular", serif;
+    position: relative;
+    left: 51%;
+    margin-top: 46px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.why-rms {
+    margin: 131px 200px 0;
+}
+
+.why-rms h2 {
+    color: #1CB647;
+    font-size: 24px;
+}
+
+.why-rms p {
+    color: #EFEFEF;
+    font-size: 80px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.links {
+    margin: 180px 200px 0 200px;
+    font-size: 24px;
+}
+
+.links ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-company {
+    overflow: hidden;
+    width: 100%;
+}
+
+.our-company h2 {
+    font-size: 220px;
+    text-wrap: nowrap;
+}
+
+.meet-our-team {
+    margin-left: 200px;
+}
+
+.meet-our-team h2 {
+    font-size: 80px;
+    margin-bottom: 63px;
+}
+
+.container {
+    overflow-x: auto;
+    display: flex;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.meet-our-team .box {
+    margin-right: 40px;
+}
+
+.meet-our-team img {
+    width: 343px;
+    height: 424px;
+    border-radius: 18px;
+}
+
+.author {
+    font-family: 'Helvetica Neue Medium', serif;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.designation {
+    font-family: 'Helvetica Neue Regular', serif;
+    font-size: 16px;
+    color: #505050;
+}
+
+.message-section {
+    margin-left: 388px;
+    margin-top: 210px;
+}
+
+.message-section h2 {
+    color: #1CB647;
+    font-size: 24px;
+}
+
+.message-section .content {
+    margin-top: 65px;
+    color: #FFFFFF;
+    font-size: 54px;
+}
+
+.message-section .content-bottom {
+    margin-top: 56px;
+    display: flex;
+}
+
+.message-section .circle {
+    width: 62px;
+    height: 62px;
+    border-radius: 45px;
+    background-color: #EFEFEF;
+}
+
+.message-section .author {
+    margin-top: 15px;
+}
+
+.insta-section {
+    margin-top: 218px;
+}
+
+.insta-section .title {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    color: #FFFFFF;
+}
+
+.insta-section .title img {
+    margin-right: 7px;
+}
+
+.insta-section .container {
+    margin-top: 30px;
+}
+
+.insta-section .box {
+    height: 292px;
+    border: 4px solid #FFFFFF;
+}
+
+.insta-section .box:nth-child(1) {
+    border-left: none;
+}
+
+.insta-section .box:nth-child(5) {
+    border-right: none;
+}
+
+.insta-section .box img {
+    width: 293.5px;
+    height: 292px;
+}
+
+/*Footer*/
+.footer {
+    background-color: #FFFFFF;
+    padding: 113px 0 40px;
+    color: #000000;
+}
+
+.footer a,
+.footer a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-top {
+    display: flex;
+    padding: 0 201px;
+}
+
+.footer-top .footer-icon {
+    width: 170px;
+    height: 89px;
+}
+
+.subscribe {
+    margin-left: 116px;
+    width: 100%;
+}
+
+.subscribe label {
+    color: #000;
+    font-size: 16px;
+}
+
+.subscribe input {
+    border: none;
+    font-family: "Helvetica Neue Bold", serif;
+    border-bottom: 3px solid #C9C9C9;
+    font-size: 36px;
+    color: #C7C7C7;
+    width: 100%;
+    padding-bottom: 18px;
+}
+
+.subscribe input::placeholder {
+    color: #C7C7C7;
+}
+
+.subscribe input:focus {
+    outline: none;
+    border-color: initial; /* Reset the border color to its initial value */
+}
+
+.subscribe .input-icon {
+    position: absolute;
+    right: 200px;
+    margin-top: -50px;
+}
+
+.footer-middle {
+    margin-top: 192px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 201px;
+}
+
+.footer-middle h3 {
+    margin-bottom: 43px;
+}
+
+.quick-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quick-links ul {
+    font-family: "Helvetica Neue Regular", serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.quick-links li {
+    letter-spacing: 1px;
+}
+
+.footer-bottom {
+    padding-top: 20px;
+    margin-top: 65px;
+    border-top: 2px solid #C9C9C9;
+}
+
+.footer-bottom .inner {
+    font-family: "Helvetica Neue Regular", serif;
+    font-size: 13px;
+    color: #000000;
+    letter-spacing: 1px;
+    display: flex;
+}
+
+.copy-right {
+    margin-left: 201px;
+    width: 442px;
+}
+
+.visible {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/********************************************/
+.our-vision {
+    margin-top: 105px;
+    margin-bottom: 0;
+}
+
+.our-vision h2 {
+    color: transparent;
+    background-image: linear-gradient(360deg, #000, #EFEFEF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    position: absolute;
+    font-size: 220px;
+    left: 22%;
+    opacity: .7;
+    z-index: 1;
+    padding: 0;
+}
+
+.card-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 80vh;
+    margin: 0 152px 0 86px;
+}
+
+.card {
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    transform: translateY(80%);
+    transition: transform 0.5s ease;
+}
+
+.text-card {
+    border: 1px solid #164924;
+    border-radius: 24px;
+    padding: 75px 45px;
+    background-color: #000000;
+    z-index: 10;
+    margin-bottom: -140px;
+    font-family: "Helvetica Neue Bold", serif;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.card:nth-child(2) {
+    margin-bottom: -340px;
+}
+
+.card:nth-child(3) {
+    margin-bottom: -60px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*************************************************/
+.our-company {
+    padding: 20px 0;
+    overflow: hidden;
+    overscroll-behavior: none;
+}
+
+.marquee-container {
+    display: flex;
+    position: relative;
+    overscroll-behavior: none;
+    top: 0;
+    left: -800px;
+    white-space: nowrap;
+    z-index: -1;
+    transition: all 0.5s;
+    padding-right: 3rem;
+}
+
+.fade-out-text {
+    color: white !important;
+}
